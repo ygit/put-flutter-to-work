@@ -4,7 +4,7 @@
 //
 
 import Flutter
-import FlutterPluginRegistrant
+//import FlutterPluginRegistrant
 import SwiftUI
 
 class FlutterDependencies: ObservableObject {
