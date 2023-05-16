@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "100ms-ios-analytics-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/100mslive/100ms-ios-analytics-sdk",
+      "state" : {
+        "revision" : "ffbd36c153603a3309ad9740d287438c4e89bd40",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "100ms-ios-broadcast-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/100mslive/100ms-ios-broadcast-sdk",
+      "state" : {
+        "revision" : "f4c834ec1f04eb647d8e5e554f6e85ee6c000307",
+        "version" : "0.0.9"
+      }
+    },
+    {
+      "identity" : "100ms-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/100mslive/100ms-ios-sdk.git",
+      "state" : {
+        "revision" : "cd561cf23be6123b9a9e632c0e6bd909bf54b8af",
+        "version" : "0.9.4"
+      }
+    }
+  ],
+  "version" : 2
+}

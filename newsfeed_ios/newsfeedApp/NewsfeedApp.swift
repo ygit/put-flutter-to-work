@@ -13,11 +13,13 @@ class FlutterDependencies: ObservableObject {
   init() {
     // Prepare a Flutter engine in advance.
     npsFlutterEngine.run()
+    GeneratedPluginRegistrant.register(with: npsFlutterEngine)
   }
 }
 
 @main
 struct NewsfeedApp: App {
+    
 
   // flutterDependencies will be injected using EnvironmentObject
   @StateObject var flutterDependencies = FlutterDependencies()
