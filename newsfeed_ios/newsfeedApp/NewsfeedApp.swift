@@ -4,7 +4,7 @@
 //
 
 import Flutter
-import FlutterPluginRegistrant
+//import FlutterPluginRegistrant
 import SwiftUI
 
 class FlutterDependencies: ObservableObject {
@@ -13,6 +13,7 @@ class FlutterDependencies: ObservableObject {
   init() {
     // Prepare a Flutter engine in advance.
     npsFlutterEngine.run()
+      GeneratedPluginRegistrant.register(with: npsFlutterEngine)
   }
 }
 
