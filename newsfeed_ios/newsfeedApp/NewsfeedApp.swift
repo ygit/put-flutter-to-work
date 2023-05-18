@@ -3,30 +3,47 @@
 //  newsfeed_app
 //
 
-import Flutter
+
 //import FlutterPluginRegistrant
 import SwiftUI
 
-class FlutterDependencies: ObservableObject {
-  let npsFlutterEngine = FlutterEngine(name: "flutter_nps_engine")
+//import Flutter
 
-  init() {
-    // Prepare a Flutter engine in advance.
-    npsFlutterEngine.run()
-      GeneratedPluginRegistrant.register(with: npsFlutterEngine)
-  }
-}
+//class FlutterDependencies: ObservableObject {
+////  let npsFlutterEngine = FlutterEngine(name: "flus_engine")
+//
+//  init() {
+//    // Prepare a Flutter engine in advance.
+////    npsFlutterEngine.run(withEntrypoint: nil, libraryURI: nil, initialRoute: "/test-route")
+//    GeneratedPluginRegistrant.register(with: npsFlutterEngine)
+//  }
+//}
 
 @main
 struct NewsfeedApp: App {
 
   // flutterDependencies will be injected using EnvironmentObject
-  @StateObject var flutterDependencies = FlutterDependencies()
+//  @StateObject var flutterDependencies = FlutterDependencies()
 
   var body: some Scene {
     WindowGroup {
-      ContentView()
-        .environmentObject(flutterDependencies)
+        
+        ZStack {
+            Color.yellow
+            
+            VStack {
+                
+                TextView()
+                    .frame(width: 500, height: 500)
+                
+                testRoute()
+                    .frame(width: 500, height: 500)
+            }
+        }
+        
+        
+        
+//        .environmentObject(flutterDependencies)
     }
   }
 }

@@ -35,6 +35,6 @@ struct ContentView: View {
 struct ContentViewPreviews: PreviewProvider {
   static var previews: some View {
     ContentView()
-      .environmentObject(FlutterDependencies())
+//      .environmentObject(FlutterDependencies())
   }
 }

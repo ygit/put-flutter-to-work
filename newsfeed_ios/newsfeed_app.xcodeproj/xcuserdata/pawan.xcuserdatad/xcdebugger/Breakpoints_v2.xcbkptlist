@@ -7,17 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "87CD8221-077F-4366-9F51-D9583B71DB88"
+            uuid = "1EDD5464-7DDE-4D0F-9726-88130278C313"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "newsfeedApp/EndlessList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "makeUIView(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EDD5464-7DDE-4D0F-9726-88130278C313 - de4a71f8bfa9b681"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "newsfeed_app.testRoute.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;newsfeed_app.testRoute&gt;) -&gt; __C.UIView"
+                  moduleName = "newsfeed_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawan/Downloads/put-flutter-to-work-main/newsfeed_ios/newsfeedApp/EndlessList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "1EDD5464-7DDE-4D0F-9726-88130278C313 - a95930c52ebcecdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "newsfeed_app.TextView.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;newsfeed_app.TextView&gt;) -&gt; __C.UIView"
+                  moduleName = "newsfeed_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pawan/Downloads/put-flutter-to-work-main/newsfeed_ios/newsfeedApp/EndlessList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "2084">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
