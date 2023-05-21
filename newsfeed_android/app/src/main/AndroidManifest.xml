@@ -19,12 +19,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:name="com.example.newsfeed_android.TestFlutterActivity"
             android:theme="@style/Theme.Translucent.newsfeed_android"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize"
+            android:supportsPictureInPicture="true"
             />
+        <service android:name="com.pravera.flutter_foreground_task.service.ForegroundService"
+            android:foregroundServiceType="camera|microphone"
+            android:stopWithTask="true" />
     </application>
 
 </manifest>
